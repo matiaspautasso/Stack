@@ -31,7 +31,7 @@ namespace Stack
             }
             else
             {
-                New.NEXT = FIRST;
+                New.NEXT = FIRST; //
                 FIRST = New;
             }
         }
